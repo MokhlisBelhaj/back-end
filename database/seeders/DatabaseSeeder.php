@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
                 'name' => $region,
             ]);
         }
-        \app\Models\bibliotheque::factory()->create([
+        \App\Models\bibliotheque::factory()->create([
             'title'=>'le guide marocain des associations',
             'description'=>'Les associations sont essentielles pour résoudre les problèmes du Maroc et le Guide Marocain des Associations est une ressource précieuse pour les personnes impliquées dans ce travail.',
             'image'=>'guide.jpg',
